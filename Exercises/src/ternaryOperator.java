@@ -24,7 +24,7 @@ public class ternaryOperator {
 //        System.out.println(timeOfDay);
 
         int income = 60000;
-        double taxRate (income >= 40000) ? 0.25 : 0.15;
+        double taxRate = (income >= 40000) ? 0.25 : 0.15;
         System.out.println(taxRate);
 
 
